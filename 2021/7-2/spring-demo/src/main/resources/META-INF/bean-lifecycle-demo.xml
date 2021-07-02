@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="beanLifecycleBeanPostProcessor"
+          class="com.knowledge.share.wkk.spring.demo.BeanLifecycleBeanPostProcessor"/>
+    <!--<bean id="BeanLifecycleBeanPostProcessor1" lazy-init="false" class="com.knowledge.share.wkk.spring.demo.BeanLifecycleBeanPostProcessor"/>-->
+
+    <bean id="user" class="com.knowledge.share.wkk.spring.demo.User" init-method="init" destroy-method="customDestroy">
+        <property name="id" value="100"/>
+        <property name="name" value="hello"/>
+    </bean>
+
+</beans>
