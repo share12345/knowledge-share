@@ -63,3 +63,4 @@
 内容：讲解Spring Bean的生命周期的实例化、属性填充、初始化、销毁这四个阶段，在这四个阶段中的回调接口和回调接口的作用。穿插讲解了Spring Bean Aware接口回调机制。
 
 链接地址：https://github.com/wkk1994/knowledge-share/tree/main/2021/7-2
+
