@@ -74,3 +74,12 @@
 
 链接地址：https://github.com/wkk1994/knowledge-share/tree/main/2021/7-8
 
+### Spring Bean配置元信息
+
+主题：Spring Bean配置元信息
+
+日期：2021-7-19
+
+内容：讲解Spring Bean的配置元信息的介绍、实现、来源、注册以及分析基于@ComponentScan注解进行BeanDefinition解析与注册的执行流程。
+
+链接地址：https://github.com/wkk1994/knowledge-share/tree/main/2021/7-16
